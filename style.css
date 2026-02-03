@@ -117,3 +117,27 @@ body {
   font-size: 14px;
   color: #555;
 }
+
+/* MOBILE FIX */
+@media (max-width: 480px) {
+  .header {
+    padding: 14px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .header .btn {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
